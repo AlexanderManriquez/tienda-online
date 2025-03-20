@@ -1,11 +1,13 @@
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <>
-      <div className="min-h-screen bg-gray-500">
-        {/* <Navbar />
-        <Hero /> */}
-        <p>Estoy aquí</p>
+      <div className="min-h-screen bg-black text-white">
+        <Navbar />
+        <Hero />
       </div>
     </>
   );
